@@ -1,0 +1,63 @@
+
+    body {
+       background-color: #85CDFD;
+      font-family: 'Julee'
+    }
+
+    .title {
+       size-adjust: 200px;
+       position: relative;
+       left: 150px;
+        top: 10px;
+
+    }
+
+    .top-container-one {
+        background-color: #85CDFD;
+       
+    }
+        
+    .container-one {
+          background-color: blue;
+          
+          
+    }
+      
+    .container-two {
+        background-color: pink;    
+    }
+      
+    .container-three {
+        background-color: purple;
+
+    }
+      
+
+    .top-container-menu {
+        background-color: Black;
+        text-align: right;
+       
+        left: 150px;
+
+
+    }
+
+    .main-body {
+        color: white;
+        text-align: Right;
+
+    }   
+
+    .top-header {
+        font-size: 45px;
+        
+    }
+
+    div {
+       margin-left: 100px;
+    }
+
+    .minnie {
+        position: fixed;
+        background-color: #85CDFD
+    }
