@@ -5,11 +5,10 @@
     }
 
     .title {
-       size-adjust: 200px;
-       position: relative;
-       left: 150px;
-        top: 10px;
-
+       height: 65px;
+       position: absolute;
+       left: 5px;
+       top: 5px;
     }
 
     .top-container-one {
@@ -19,25 +18,30 @@
         
     .container-one {
           background-color: blue;
-          
+          border-radius: 100%;
+           margin-left: 110px;
           
     }
       
     .container-two {
         background-color: pink;    
+        border-radius: 100%;
+         margin-left: 110px;
+        
     }
       
     .container-three {
         background-color: purple;
-
+        border-radius: 100%;
+         margin-left: 110px;
     }
       
 
     .top-container-menu {
         background-color: Black;
+       position: relative;
         text-align: right;
        
-        left: 150px;
 
 
     }
@@ -49,15 +53,57 @@
     }   
 
     .top-header {
-        font-size: 45px;
+        font-size: 30px;
         
     }
 
-    div {
-       margin-left: 100px;
-    }
 
     .minnie {
-        position: fixed;
         background-color: #85CDFD
+    }
+
+    .sidebarmenu {
+        position: fixed;
+        
+    }
+
+    .firsttesta {
+        position: relative;
+        margin-left: 5%;
+    }
+
+    .testimoney {
+        margin-left: 110px;
+    }
+
+    .valuable {
+        font-size: 48pt;
+        text-align: center;
+    }
+
+    .something {
+        font-size: 18pt;
+        text-align: center;
+
+    }
+
+    .diana{
+        margin-left: 110px;
+        position: absolute;
+        height: 400px;
+        width: 300px;
+        text-align: center;
+        
+    }
+
+    .diana1{
+        height: 150px
+    }
+
+    .kevin{
+        position: absolute;
+        margin-left: 450px;
+        text-align: center;
+        height: 400px;
+        width: 300px;
     }
