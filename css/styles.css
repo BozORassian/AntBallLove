@@ -3,6 +3,11 @@
        background-color: #85CDFD;
       font-family: 'Julee'
     }
+    @media (max-width: 600px) {
+        .title {
+            width: 250px;
+        }
+    }
 
     .Flexbox{
         display: inline-flex;
@@ -21,7 +26,9 @@
         justify-content: space-between;
         border: 5px solid;
         border-width: 5px 5px 0px 5px;
+        flex-wrap: wrap-reverse;
     }
+
 
    .advertisebox1 {
         display: inline-flex;
