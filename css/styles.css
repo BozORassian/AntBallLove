@@ -4,62 +4,44 @@
       font-family: 'Julee'
     }
 
-    .title {
-       height: 65px;
-       position: absolute;
-       left: 5px;
-       top: 5px;
+    .Flexbox{
+        display: inline-flex;
+        flex-direction: column;
+        border: 5px solid;
+        gap: 10px;
+        padding: 5px;
+
     }
 
-    .top-container-one {
-        background-color: #85CDFD;
-       
-    }
-        
-    .container-one {
-          position: relative;
-          background-color: blue;
-          border-radius: 50%;
-           margin-left: 110px;
-          
-    }
-      
-    .container-two {
-        background-color: pink;    
-        border-radius: 100%;
-         margin-left: 110px;
-        
-    }
-      
-    .container-three {
-        background-color: purple;
-        border-radius: 100%;
-         margin-left: 110px;
-    }
-      
-
-    .top-container-menu {
+    .topmenu {
         background-color: Black;
-       position: relative;
-        text-align: right;
-       
-
-
+        display: inline-flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+        border: 5px solid;
+        border-width: 5px 5px 0px 5px;
     }
 
-    .main-body {
-        position: relative;
-        color: white;
-        text-align: center;
-        
-        
+   .advertisebox1 {
+        display: inline-flex;
+        align-items: right;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 110px;
 
-    }   
+   }
 
-    .top-header {
-        font-size: 30px;
-        
-    }
+   .advertise1 {
+        background: red;
+        display: inline-flex;
+        flex-direction: column;
+        gap: 50px;
+        border: 5px solid;
+        align-items: center;
+        margin-left: 5px;
+         }
+    
 
 
     .minnie {
@@ -67,42 +49,43 @@
     }
 
     .sidebarmenu {
-        position: fixed;
+       display: flex;
+       position: fixed;
+        margin-top: 110px;
+        flex-direction: row;
+
+        
         
     }
 
-    .firsttesta {
-        position: relative;
-        margin-left: 5%;
-    }
-
-    .testimoney {
+    .praisebox {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         margin-left: 110px;
+        
+    }
+    .praiseprofile{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .valuable {
+    .praiseprofilepic{
+        height: 150px
+    }
+
+    .praisestatement1 {
         font-size: 48pt;
         text-align: center;
     }
 
-    .something {
+    .praisestatement2 {
         font-size: 18pt;
         text-align: center;
 
     }
+    
+    
 
-   
-
-    .basicpro{
-        height: 150px
-    }
-
-
-    .profiletest{
-        float: left;
-        padding: 20px;
-        text-align: center;
-        height: 400px;
-        width: 50%;
-    }
 
