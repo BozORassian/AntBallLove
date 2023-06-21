@@ -17,8 +17,9 @@
     }
         
     .container-one {
+          position: relative;
           background-color: blue;
-          border-radius: 100%;
+          border-radius: 50%;
            margin-left: 110px;
           
     }
@@ -47,8 +48,11 @@
     }
 
     .main-body {
+        position: relative;
         color: white;
-        text-align: Right;
+        text-align: center;
+        
+        
 
     }   
 
@@ -87,23 +91,18 @@
 
     }
 
-    .diana{
-        margin-left: 110px;
-        position: absolute;
-        height: 400px;
-        width: 300px;
-        text-align: center;
-        
-    }
+   
 
-    .diana1{
+    .basicpro{
         height: 150px
     }
 
-    .kevin{
-        position: absolute;
-        margin-left: 450px;
+
+    .profiletest{
+        float: left;
+        padding: 20px;
         text-align: center;
         height: 400px;
-        width: 300px;
+        width: 50%;
     }
+
